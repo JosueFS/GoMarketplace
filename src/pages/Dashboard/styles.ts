@@ -6,6 +6,7 @@ interface Product {
   title: string;
   image_url: string;
   price: number;
+  quantity: number;
 }
 
 export const Container = styled.SafeAreaView`
